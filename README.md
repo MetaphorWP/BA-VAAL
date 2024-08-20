@@ -12,5 +12,7 @@ CINIC-10 contains 270,000 images which have been equally split into training, va
 
 # Start
 ```
-python main.py -d cifar10 -b 1
+python main.py -d cifar10 -b 2.5
+python main.py -d svhn -b 1
+python main.py -d cinic10 -b 1
 ```
